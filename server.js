@@ -35,7 +35,7 @@ app.use('/api/users', usersRoutes); // Montar las rutas de usuarios con el prefi
 app.use('/api/reservas', reservaRoutes); // Montar las rutas de reservas con el prefijo '/api/reservas'
  
 // Iniciar el servidor 
-server.listen(port, '192.168.0.17' || 'localhost', function() { 
+server.listen(port, '10.175.81.202' || 'localhost', function() { 
     console.log('App Node.js ' + process.pid + ' ejecutando en ' + 
 server.address().address + ':' + server.address().port); 
 }); 
